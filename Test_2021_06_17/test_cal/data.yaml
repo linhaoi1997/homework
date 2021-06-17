@@ -1,0 +1,46 @@
+add_success:
+  argnames: a,b,result
+  argvalues:
+    - [1,2,3]
+    - [1,-2,-1]
+    - [1,2.0001,3.0001]
+    - ["star","t_test","start_test"]
+  ids:
+    - "两整数相加"
+    - "正数负数相加"
+    - "整数、浮点数相加"
+    - "字符串相加"
+
+add_fail:
+  argnames: a,b,error_type
+  argvalues:
+    - [1,"2",TypeError]
+    - [1,[1,2],TypeError]
+  ids:
+    - "数字+字符串错误"
+    - "数字+列表错误"
+
+division_success:
+  argnames: a,b,result
+  argvalues:
+    - [1,2,0.5]
+    - [1,-2,-0.5]
+    - [1,0.5,2]
+    - [0,100,0]
+  ids:
+    - "整数相除"
+    - "正数负数相除"
+    - "整数、浮点数相除"
+    - "0做除数结果为0"
+
+
+division_fail:
+  argnames: a,b,error_type
+  argvalues:
+    - [1,0,"ZeroDivisionError"]
+    - [1,"2","TypeError"]
+    - [1,[1,2,3],"TypeError"]
+  ids:
+    - "0作为分母"
+    - "字符串做除法"
+    - "列表做除法"
