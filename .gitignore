@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 /venv_new
 .idea/
+output/

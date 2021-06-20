@@ -1,0 +1,147 @@
+{
+  "uid" : "f92380839995b592",
+  "name" : "反向用例: raise TypeError",
+  "fullName" : "Test_2021_06_17.test_cal.test_cal.TestAddDivision#test_division_success",
+  "historyId" : "9a9d7bb966ac9488ed532efc60080fe4",
+  "time" : {
+    "start" : 1624198100536,
+    "stop" : 1624198100536,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup_and_teardown",
+    "time" : {
+      "start" : 1624198100535,
+      "stop" : 1624198100535,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "calc",
+    "time" : {
+      "start" : 1624198100499,
+      "stop" : 1624198100499,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "调用相除",
+      "time" : {
+        "start" : 1624198100536,
+        "stop" : 1624198100536,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: unsupported operand type(s) for /: 'int' and 'str'\n",
+      "statusTrace" : "  File \"/Users/linhao/PycharmProjects/pythonProject/homework/venv_new/lib/python3.9/site-packages/allure_commons/_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"/Users/linhao/PycharmProjects/pythonProject/homework/Test_2021_06_17/calculator/calculator.py\", line 17, in div\n    return a / b\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "a",
+        "value" : "1"
+      }, {
+        "name" : "b",
+        "value" : "'2'"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup_and_teardown::0",
+    "time" : {
+      "start" : 1624198100539,
+      "stop" : 1624198100539,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试除法"
+  }, {
+    "name" : "feature",
+    "value" : "测试计算器"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_2021_06_17.test_cal"
+  }, {
+    "name" : "suite",
+    "value" : "test_cal"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddDivision"
+  }, {
+    "name" : "host",
+    "value" : "192.168.8.102"
+  }, {
+    "name" : "thread",
+    "value" : "59236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_2021_06_17.test_cal.test_cal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "'2'"
+  }, {
+    "name" : "error_type",
+    "value" : "'TypeError'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f92380839995b592.json",
+  "parameterValues" : [ "1", "'2'", "'TypeError'" ]
+}

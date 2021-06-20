@@ -14,4 +14,4 @@ def return_path(path):
 
 
 if __name__ == '__main__':
-    print(return_path("utils/images"))
+    print(return_path("output/log/test.log"))

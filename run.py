@@ -23,3 +23,7 @@ def run(file_name):
     pytest.main(
         ['-vs', file_name, '--alluredir', xml_path])  # 正式 "--reruns","2"
     go_allure()
+
+
+if __name__ == '__main__':
+    go_allure(True)

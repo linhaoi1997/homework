@@ -1,3 +1,5 @@
+import logging
+
 import allure
 import pytest
 import yaml
@@ -12,7 +14,7 @@ def get_data(name):
 
 
 @pytest.fixture(autouse=True)
-def setup_and_teardown():
+def setup_and_teardown(manage_logs):
     logger.debug("开始计算")
     yield
     logger.debug("结束计算")
@@ -26,6 +28,7 @@ class TestAddDivision:
     @pytest.mark.parametrize(**get_data("add_success"))
     def test_add_success(self, a, b, result, calc):
         logger.debug(f"assert add ({a},{b}) success equal {result}")
+        logging.info("ceshishsishis")
         assert calc.add(a, b) == result
 
     @allure.story("测试加法")

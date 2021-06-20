@@ -9,142 +9,25 @@
         "name" : "TestAddDivision",
         "children" : [ {
           "name" : "正向用例: (1)+(2) == 3",
-          "uid" : "2e085682d4676c78",
+          "uid" : "477bf00c996ff391",
           "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
           "status" : "passed",
           "time" : {
-            "start" : 1624194207738,
-            "stop" : 1624194207738,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "1", "2", "3" ]
-        }, {
-          "name" : "正向用例: (1)+(-2) == -1",
-          "uid" : "e877c4a0eb20fbfd",
-          "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
-          "status" : "passed",
-          "time" : {
-            "start" : 1624194207741,
-            "stop" : 1624194207742,
+            "start" : 1624203862744,
+            "stop" : 1624203862745,
             "duration" : 1
           },
           "flaky" : false,
           "newFailed" : false,
-          "parameters" : [ "1", "-2", "-1" ]
-        }, {
-          "name" : "正向用例: (1)+(2.0001) == 3.0001",
-          "uid" : "78abb2adf1bd4630",
-          "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
-          "status" : "passed",
-          "time" : {
-            "start" : 1624194207745,
-            "stop" : 1624194207745,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "1", "2.0001", "3.0001" ]
-        }, {
-          "name" : "正向用例: (star)+(t_test) == start_test",
-          "uid" : "cffe4c277839576a",
-          "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
-          "status" : "passed",
-          "time" : {
-            "start" : 1624194207749,
-            "stop" : 1624194207749,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "'star'", "'t_test'", "'start_test'" ]
-        }, {
-          "name" : "反向用例: raise TypeError",
-          "uid" : "8d6a89d0cfc0c6b2",
-          "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
-          "status" : "passed",
-          "time" : {
-            "start" : 1624194207756,
-            "stop" : 1624194207756,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "1", "'2'", "'TypeError'" ]
-        }, {
-          "name" : "反向用例: raise TypeError",
-          "uid" : "8d38a42eeb8249b",
-          "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
-          "status" : "passed",
-          "time" : {
-            "start" : 1624194207760,
-            "stop" : 1624194207760,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "1", "[1, 2]", "'TypeError'" ]
-        }, {
-          "name" : "反向用例: raise ZeroDivisionError",
-          "uid" : "804eefba513d5a2a",
-          "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
-          "status" : "passed",
-          "time" : {
-            "start" : 1624194207764,
-            "stop" : 1624194207764,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "1", "0", "'ZeroDivisionError'" ]
-        }, {
-          "name" : "反向用例: raise TypeError",
-          "uid" : "70b7d82492c4312e",
-          "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
-          "status" : "passed",
-          "time" : {
-            "start" : 1624194207767,
-            "stop" : 1624194207767,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "1", "'2'", "'TypeError'" ]
-        }, {
-          "name" : "反向用例: raise TypeError",
-          "uid" : "faff025b8ec2c8f2",
-          "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
-          "status" : "passed",
-          "time" : {
-            "start" : 1624194207772,
-            "stop" : 1624194207772,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "1", "[1, 2, 3]", "'TypeError'" ]
-        }, {
-          "name" : "正向用例: (1)+(2) == 3",
-          "uid" : "857a3831d8eb6dd9",
-          "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
-          "status" : "passed",
-          "time" : {
-            "start" : 1624195382643,
-            "stop" : 1624195382643,
-            "duration" : 0
-          },
-          "flaky" : false,
-          "newFailed" : false,
           "parameters" : [ "1", "2", "3" ]
         }, {
           "name" : "正向用例: (1)+(-2) == -1",
-          "uid" : "589640029a6406de",
+          "uid" : "badffb35e21725d4",
           "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
           "status" : "passed",
           "time" : {
-            "start" : 1624195382648,
-            "stop" : 1624195382648,
+            "start" : 1624203862749,
+            "stop" : 1624203862749,
             "duration" : 0
           },
           "flaky" : false,
@@ -152,51 +35,51 @@
           "parameters" : [ "1", "-2", "-1" ]
         }, {
           "name" : "正向用例: (1)+(2.0001) == 3.0001",
-          "uid" : "e496f0c4c9bb8fd7",
+          "uid" : "449e4a5272c85057",
           "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
           "status" : "passed",
           "time" : {
-            "start" : 1624195382655,
-            "stop" : 1624195382655,
-            "duration" : 0
+            "start" : 1624203862753,
+            "stop" : 1624203862754,
+            "duration" : 1
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "1", "2.0001", "3.0001" ]
         }, {
           "name" : "正向用例: (star)+(t_test) == start_test",
-          "uid" : "9c4526652e8728bc",
+          "uid" : "9d637cb25e392959",
           "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
           "status" : "passed",
           "time" : {
-            "start" : 1624195382660,
-            "stop" : 1624195382661,
-            "duration" : 1
+            "start" : 1624203862763,
+            "stop" : 1624203862763,
+            "duration" : 0
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "'star'", "'t_test'", "'start_test'" ]
         }, {
           "name" : "浮点数相加，有精度损失",
-          "uid" : "641bf517dc72b2da",
+          "uid" : "1d320ea7000c7097",
           "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
           "status" : "passed",
           "time" : {
-            "start" : 1624195382665,
-            "stop" : 1624195382665,
-            "duration" : 0
+            "start" : 1624203862768,
+            "stop" : 1624203862769,
+            "duration" : 1
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "反向用例: raise TypeError",
-          "uid" : "6520027193d47bb",
+          "uid" : "212f5c3e112b9b0",
           "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
           "status" : "passed",
           "time" : {
-            "start" : 1624195382670,
-            "stop" : 1624195382672,
+            "start" : 1624203862786,
+            "stop" : 1624203862788,
             "duration" : 2
           },
           "flaky" : false,
@@ -204,38 +87,38 @@
           "parameters" : [ "1", "'2'", "'TypeError'" ]
         }, {
           "name" : "反向用例: raise TypeError",
-          "uid" : "fc157a1eed32825e",
+          "uid" : "59add6f3f39a9df0",
           "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
           "status" : "passed",
           "time" : {
-            "start" : 1624195382679,
-            "stop" : 1624195382680,
-            "duration" : 1
+            "start" : 1624203862795,
+            "stop" : 1624203862795,
+            "duration" : 0
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "1", "[1, 2]", "'TypeError'" ]
         }, {
           "name" : "反向用例: raise ZeroDivisionError",
-          "uid" : "aac392003a66d51b",
+          "uid" : "2306965a7bbb0286",
           "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
           "status" : "passed",
           "time" : {
-            "start" : 1624195382688,
-            "stop" : 1624195382689,
-            "duration" : 1
+            "start" : 1624203862799,
+            "stop" : 1624203862799,
+            "duration" : 0
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "1", "0", "'ZeroDivisionError'" ]
         }, {
           "name" : "反向用例: raise TypeError",
-          "uid" : "967e64fe87e0a42e",
+          "uid" : "a741df9c4837c70d",
           "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
           "status" : "passed",
           "time" : {
-            "start" : 1624195382697,
-            "stop" : 1624195382697,
+            "start" : 1624203862850,
+            "stop" : 1624203862850,
             "duration" : 0
           },
           "flaky" : false,
@@ -243,13 +126,13 @@
           "parameters" : [ "1", "'2'", "'TypeError'" ]
         }, {
           "name" : "反向用例: raise TypeError",
-          "uid" : "5202e65a58b8549a",
+          "uid" : "f5fb56ebea78941f",
           "parentUid" : "52b54c820a9afbeb573423ed6fb15110",
           "status" : "passed",
           "time" : {
-            "start" : 1624195382704,
-            "stop" : 1624195382705,
-            "duration" : 1
+            "start" : 1624203862855,
+            "stop" : 1624203862855,
+            "duration" : 0
           },
           "flaky" : false,
           "newFailed" : false,
@@ -260,13 +143,13 @@
         "name" : "TestAllure",
         "children" : [ {
           "name" : "测试步骤和截图",
-          "uid" : "523db21fec4cb8e7",
+          "uid" : "1aaa981e0415b94b",
           "parentUid" : "421659e3862728067dffaa59c1da9946",
           "status" : "passed",
           "time" : {
-            "start" : 1624195382713,
-            "stop" : 1624195382715,
-            "duration" : 2
+            "start" : 1624203862863,
+            "stop" : 1624203862864,
+            "duration" : 1
           },
           "flaky" : false,
           "newFailed" : false,

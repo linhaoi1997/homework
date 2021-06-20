@@ -1,0 +1,2 @@
+DEBUG    root:test_cal.py:17 开始计算
+DEBUG    root:test_cal.py:19 结束计算

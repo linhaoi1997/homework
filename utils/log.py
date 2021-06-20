@@ -50,4 +50,5 @@ class AutoTestLog:
         self.file_handle.close()
 
 
-logger = AutoTestLog().logger
+# logger = AutoTestLog().logger
+logger = logging.getLogger()

@@ -1,199 +1,109 @@
 [ {
-  "uid" : "70b7d82492c4312e",
-  "name" : "反向用例: raise TypeError",
-  "time" : {
-    "start" : 1624194207767,
-    "stop" : 1624194207767,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "857a3831d8eb6dd9",
-  "name" : "正向用例: (1)+(2) == 3",
-  "time" : {
-    "start" : 1624195382643,
-    "stop" : 1624195382643,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e877c4a0eb20fbfd",
-  "name" : "正向用例: (1)+(-2) == -1",
-  "time" : {
-    "start" : 1624194207741,
-    "stop" : 1624194207742,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8d6a89d0cfc0c6b2",
-  "name" : "反向用例: raise TypeError",
-  "time" : {
-    "start" : 1624194207756,
-    "stop" : 1624194207756,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aac392003a66d51b",
-  "name" : "反向用例: raise ZeroDivisionError",
-  "time" : {
-    "start" : 1624195382688,
-    "stop" : 1624195382689,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cffe4c277839576a",
-  "name" : "正向用例: (star)+(t_test) == start_test",
-  "time" : {
-    "start" : 1624194207749,
-    "stop" : 1624194207749,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "589640029a6406de",
-  "name" : "正向用例: (1)+(-2) == -1",
-  "time" : {
-    "start" : 1624195382648,
-    "stop" : 1624195382648,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9c4526652e8728bc",
-  "name" : "正向用例: (star)+(t_test) == start_test",
-  "time" : {
-    "start" : 1624195382660,
-    "stop" : 1624195382661,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e496f0c4c9bb8fd7",
+  "uid" : "449e4a5272c85057",
   "name" : "正向用例: (1)+(2.0001) == 3.0001",
   "time" : {
-    "start" : 1624195382655,
-    "stop" : 1624195382655,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "78abb2adf1bd4630",
-  "name" : "正向用例: (1)+(2.0001) == 3.0001",
-  "time" : {
-    "start" : 1624194207745,
-    "stop" : 1624194207745,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "641bf517dc72b2da",
-  "name" : "浮点数相加，有精度损失",
-  "time" : {
-    "start" : 1624195382665,
-    "stop" : 1624195382665,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8d38a42eeb8249b",
-  "name" : "反向用例: raise TypeError",
-  "time" : {
-    "start" : 1624194207760,
-    "stop" : 1624194207760,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "804eefba513d5a2a",
-  "name" : "反向用例: raise ZeroDivisionError",
-  "time" : {
-    "start" : 1624194207764,
-    "stop" : 1624194207764,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "967e64fe87e0a42e",
-  "name" : "反向用例: raise TypeError",
-  "time" : {
-    "start" : 1624195382697,
-    "stop" : 1624195382697,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5202e65a58b8549a",
-  "name" : "反向用例: raise TypeError",
-  "time" : {
-    "start" : 1624195382704,
-    "stop" : 1624195382705,
+    "start" : 1624203862753,
+    "stop" : 1624203862754,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "faff025b8ec2c8f2",
-  "name" : "反向用例: raise TypeError",
-  "time" : {
-    "start" : 1624194207772,
-    "stop" : 1624194207772,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fc157a1eed32825e",
-  "name" : "反向用例: raise TypeError",
-  "time" : {
-    "start" : 1624195382679,
-    "stop" : 1624195382680,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6520027193d47bb",
-  "name" : "反向用例: raise TypeError",
-  "time" : {
-    "start" : 1624195382670,
-    "stop" : 1624195382672,
-    "duration" : 2
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "523db21fec4cb8e7",
+  "uid" : "1aaa981e0415b94b",
   "name" : "测试步骤和截图",
   "time" : {
-    "start" : 1624195382713,
-    "stop" : 1624195382715,
+    "start" : 1624203862863,
+    "stop" : 1624203862864,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "477bf00c996ff391",
+  "name" : "正向用例: (1)+(2) == 3",
+  "time" : {
+    "start" : 1624203862744,
+    "stop" : 1624203862745,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "212f5c3e112b9b0",
+  "name" : "反向用例: raise TypeError",
+  "time" : {
+    "start" : 1624203862786,
+    "stop" : 1624203862788,
     "duration" : 2
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2e085682d4676c78",
-  "name" : "正向用例: (1)+(2) == 3",
+  "uid" : "2306965a7bbb0286",
+  "name" : "反向用例: raise ZeroDivisionError",
   "time" : {
-    "start" : 1624194207738,
-    "stop" : 1624194207738,
+    "start" : 1624203862799,
+    "stop" : 1624203862799,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "badffb35e21725d4",
+  "name" : "正向用例: (1)+(-2) == -1",
+  "time" : {
+    "start" : 1624203862749,
+    "stop" : 1624203862749,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d637cb25e392959",
+  "name" : "正向用例: (star)+(t_test) == start_test",
+  "time" : {
+    "start" : 1624203862763,
+    "stop" : 1624203862763,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5fb56ebea78941f",
+  "name" : "反向用例: raise TypeError",
+  "time" : {
+    "start" : 1624203862855,
+    "stop" : 1624203862855,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d320ea7000c7097",
+  "name" : "浮点数相加，有精度损失",
+  "time" : {
+    "start" : 1624203862768,
+    "stop" : 1624203862769,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59add6f3f39a9df0",
+  "name" : "反向用例: raise TypeError",
+  "time" : {
+    "start" : 1624203862795,
+    "stop" : 1624203862795,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a741df9c4837c70d",
+  "name" : "反向用例: raise TypeError",
+  "time" : {
+    "start" : 1624203862850,
+    "stop" : 1624203862850,
     "duration" : 0
   },
   "status" : "passed",
