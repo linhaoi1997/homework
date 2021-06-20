@@ -1,0 +1,185 @@
+{
+  "uid" : "857a3831d8eb6dd9",
+  "name" : "正向用例: (1)+(2) == 3",
+  "fullName" : "Test_2021_06_17.test_cal.test_cal.TestAddDivision#test_add_success",
+  "historyId" : "2b3f955faa9aef7f1f2ae033590830a0",
+  "time" : {
+    "start" : 1624195382643,
+    "stop" : 1624195382643,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup_and_teardown",
+    "time" : {
+      "start" : 1624195382642,
+      "stop" : 1624195382642,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "calc",
+    "time" : {
+      "start" : 1624195382642,
+      "stop" : 1624195382642,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "调用相加",
+      "time" : {
+        "start" : 1624195382643,
+        "stop" : 1624195382643,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "a",
+        "value" : "1"
+      }, {
+        "name" : "b",
+        "value" : "2"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "e362ec5ccad69286",
+      "name" : "log",
+      "source" : "e362ec5ccad69286.txt",
+      "type" : "text/plain",
+      "size" : 145
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "setup_and_teardown::0",
+    "time" : {
+      "start" : 1624195382644,
+      "stop" : 1624195382645,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试计算器"
+  }, {
+    "name" : "story",
+    "value" : "测试加法"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test_2021_06_17.test_cal"
+  }, {
+    "name" : "suite",
+    "value" : "test_cal"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddDivision"
+  }, {
+    "name" : "host",
+    "value" : "192.168.8.102"
+  }, {
+    "name" : "thread",
+    "value" : "56820-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test_2021_06_17.test_cal.test_cal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "2"
+  }, {
+    "name" : "result",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6a80b27f96cf7ca8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624195169430,
+        "stop" : 1624195169430,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7dcdf2166054225d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624195113873,
+        "stop" : 1624195113873,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d5b5a11b5d01a794",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624195003036,
+        "stop" : 1624195003037,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1a68d19146b64d55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624194308127,
+        "stop" : 1624194308127,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "857a3831d8eb6dd9.json",
+  "parameterValues" : [ "1", "2", "3" ]
+}

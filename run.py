@@ -12,7 +12,7 @@ def go_allure(is_clear=False):
     if is_clear:
         shutil.rmtree(xml_path)
         os.mkdir(xml_path)
-        log_path = pro_path + "/output/log/"
+        log_path = pro_path + "/output/logs/"
         shutil.rmtree(log_path)
         os.mkdir(log_path)
 

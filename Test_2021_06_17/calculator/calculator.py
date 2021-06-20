@@ -1,4 +1,8 @@
+import allure
+
+
 class Calculator:
+    @allure.step("调用相加")
     def add(self, a, b):
         return a + b
 
@@ -8,5 +12,6 @@ class Calculator:
     def mul(self, a, b):
         return a * b
 
+    @allure.step("调用相除")
     def div(self, a, b):
         return a / b

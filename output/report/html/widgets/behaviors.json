@@ -1,4 +1,26 @@
 {
-  "total" : 9,
-  "items" : [ ]
+  "total" : 2,
+  "items" : [ {
+    "uid" : "d81e305ff02c2e297aa300b5dfb0f8bc",
+    "name" : "测试计算器",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "968ae2f13df45eef39ae0625cf7aa82a",
+    "name" : "测试allure",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
 }

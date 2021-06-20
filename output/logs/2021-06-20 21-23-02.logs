@@ -1,0 +1,32 @@
+2021-06-20 21:23:02,641 - test_cal.py - setup_and_teardown - DEBUG -开始计算
+2021-06-20 21:23:02,642 - test_cal.py - test_add_success - DEBUG -assert add (1,2) success equal 3
+2021-06-20 21:23:02,644 - test_cal.py - setup_and_teardown - DEBUG -结束计算
+2021-06-20 21:23:02,646 - test_cal.py - setup_and_teardown - DEBUG -开始计算
+2021-06-20 21:23:02,647 - test_cal.py - test_add_success - DEBUG -assert add (1,-2) success equal -1
+2021-06-20 21:23:02,651 - test_cal.py - setup_and_teardown - DEBUG -结束计算
+2021-06-20 21:23:02,653 - test_cal.py - setup_and_teardown - DEBUG -开始计算
+2021-06-20 21:23:02,654 - test_cal.py - test_add_success - DEBUG -assert add (1,2.0001) success equal 3.0001
+2021-06-20 21:23:02,656 - test_cal.py - setup_and_teardown - DEBUG -结束计算
+2021-06-20 21:23:02,659 - test_cal.py - setup_and_teardown - DEBUG -开始计算
+2021-06-20 21:23:02,660 - test_cal.py - test_add_success - DEBUG -assert add (star,t_test) success equal start_test
+2021-06-20 21:23:02,662 - test_cal.py - setup_and_teardown - DEBUG -结束计算
+2021-06-20 21:23:02,664 - test_cal.py - setup_and_teardown - DEBUG -开始计算
+2021-06-20 21:23:02,664 - test_cal.py - test_add_float - DEBUG -assert  float add success
+2021-06-20 21:23:02,665 - test_cal.py - setup_and_teardown - DEBUG -结束计算
+2021-06-20 21:23:02,669 - test_cal.py - setup_and_teardown - DEBUG -开始计算
+2021-06-20 21:23:02,670 - test_cal.py - test_add_fail - DEBUG -assert (1,2) add fail
+2021-06-20 21:23:02,674 - test_cal.py - setup_and_teardown - DEBUG -结束计算
+2021-06-20 21:23:02,677 - test_cal.py - setup_and_teardown - DEBUG -开始计算
+2021-06-20 21:23:02,678 - test_cal.py - test_add_fail - DEBUG -assert (1,[1, 2]) add fail
+2021-06-20 21:23:02,682 - test_cal.py - setup_and_teardown - DEBUG -结束计算
+2021-06-20 21:23:02,685 - test_cal.py - setup_and_teardown - DEBUG -开始计算
+2021-06-20 21:23:02,688 - test_cal.py - test_division_success - DEBUG -assert (1/0)  fail
+2021-06-20 21:23:02,691 - test_cal.py - setup_and_teardown - DEBUG -结束计算
+2021-06-20 21:23:02,694 - test_cal.py - setup_and_teardown - DEBUG -开始计算
+2021-06-20 21:23:02,696 - test_cal.py - test_division_success - DEBUG -assert (1/2)  fail
+2021-06-20 21:23:02,699 - test_cal.py - setup_and_teardown - DEBUG -结束计算
+2021-06-20 21:23:02,702 - test_cal.py - setup_and_teardown - DEBUG -开始计算
+2021-06-20 21:23:02,704 - test_cal.py - test_division_success - DEBUG -assert (1/[1, 2, 3])  fail
+2021-06-20 21:23:02,707 - test_cal.py - setup_and_teardown - DEBUG -结束计算
+2021-06-20 21:23:02,712 - test_cal.py - setup_and_teardown - DEBUG -开始计算
+2021-06-20 21:23:02,715 - test_cal.py - setup_and_teardown - DEBUG -结束计算
