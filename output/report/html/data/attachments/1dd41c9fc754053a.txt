@@ -1,3 +1,0 @@
-DEBUG    root:test_cal.py:18 开始计算
-DEBUG    root:test_cal.py:59 assert (1/0)  fail
-DEBUG    root:test_cal.py:20 结束计算

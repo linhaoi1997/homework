@@ -1,4 +1,0 @@
-DEBUG    root:test_cal.py:18 开始计算
-DEBUG    root:test_cal.py:30 assert add (1,2) success equal 3
-INFO     root:test_cal.py:31 ceshishsishis
-DEBUG    root:test_cal.py:20 结束计算

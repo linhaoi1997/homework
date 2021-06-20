@@ -1,1 +1,0 @@
-INFO     root:test_cal.py:30 ceshi
