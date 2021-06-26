@@ -126,14 +126,14 @@ class TestAddContact:
         with allure.step("进入表单填写页面"):
             page.op_create_page()
         with allure.step("填写表单"):
-            name = fake.name()
-            page.name_input = name
+            phone = fake.phone_number()
+            page.name_input = fake.name()
             page.en_name_input = fake.name()
             page.accid = fake.iana_id()
-            page.mobile = fake.phone_number()
+            page.mobile = phone
             page.save.click()
         with allure.step("校验页面存在刚才的值"):
-            assert page.exist(name)
+            assert page.exist(phone)
             page.screen()
 
 
