@@ -133,9 +133,10 @@ class TestAddContact:
             page.mobile = fake.phone_number()
             page.save.click()
         with allure.step("校验页面存在刚才的值"):
-            page.exist(name)
+            assert page.exist(name)
             page.screen()
 
 
 if __name__ == '__main__':
+    # get_cookies()
     run(__file__)
