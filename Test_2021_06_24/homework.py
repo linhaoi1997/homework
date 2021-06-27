@@ -114,7 +114,7 @@ class AddContactPage:
         allure.attach(self.driver.get_screenshot_as_png(), "截个图", allure.attachment_type.PNG)
 
 
-@pytest.fixture()
+@pytest.fixture(scope="session")
 def page():
     d = get_login_driver()
     yield AddContactPage(d)

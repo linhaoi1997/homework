@@ -38,4 +38,6 @@ class AddDepartmentPage(BasePage):
     @property
     def tip_message(self):
         WebDriverWait(self.driver, 10).until(expected_conditions.visibility_of(self.tip))
-        return self.tip.text
+        message = self.tip.text
+        WebDriverWait(self.driver, 10).until(expected_conditions.invisibility_of_element(self.tip))
+        return message
