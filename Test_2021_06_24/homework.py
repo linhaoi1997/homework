@@ -1,3 +1,5 @@
+"""本文件不用了，全部修改到po文件夹下"""
+
 import time
 
 import allure
