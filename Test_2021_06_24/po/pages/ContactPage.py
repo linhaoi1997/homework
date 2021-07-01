@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
 from .BasePage import BasePage
-from ..elements import Element, Elements
+from utils.elements import Element, Elements
 from faker import Faker
 
 fake = Faker("zh-CN")

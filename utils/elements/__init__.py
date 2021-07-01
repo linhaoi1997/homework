@@ -45,3 +45,10 @@ class Elements(BaseElement):
 
     def __get__(self, instance, owner) -> list:
         return self._handle(instance)
+
+
+class AppiumElement(BaseElement):
+
+    def __set__(self, instance, value):
+        element = self._handle(instance)
+        element.send_keys(value)

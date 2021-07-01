@@ -3,7 +3,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
 from .BasePage import BasePage
-from ..elements import Elements, Element
+from utils.elements import Elements, Element
 
 
 class AddDepartmentLocator:

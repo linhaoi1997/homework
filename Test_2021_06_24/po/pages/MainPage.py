@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from ..elements import BaseElement
+from utils.elements import BaseElement
 
 from .BasePage import BasePage
 
