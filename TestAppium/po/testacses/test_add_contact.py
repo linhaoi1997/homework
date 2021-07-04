@@ -23,16 +23,16 @@ def page(app):
     app.restart()
 
 
-# class TestAddContact:
-#     @allure.title("新增联系人")
-#     def test1(self, page):
-#         with allure.step("进入手动添加联系人页面"):
-#             pass
-#             add_page = page.goto_contact().goto_add_contact().goto_manual_add_page()
-#         with allure.step("保存成员,校验toast"):
-#             add_page.add_contact(fake.name(), fake.phone_number())
-#             assert add_page.get_toast() == "添加成功"
-#             add_page.screen()
+class TestAddContact:
+    @allure.title("新增联系人")
+    def test1(self, page):
+        with allure.step("进入手动添加联系人页面"):
+            pass
+            add_page = page.goto_contact().goto_add_contact().goto_manual_add_page()
+        with allure.step("保存成员,校验toast"):
+            add_page.add_contact(fake.name(), fake.phone_number())
+            assert add_page.get_toast() == "添加成功"
+            add_page.screen()
 
 
 class TestDeleteContact:
