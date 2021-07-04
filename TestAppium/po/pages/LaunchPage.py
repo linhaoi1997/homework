@@ -1,14 +1,12 @@
 from TestAppium.po.pages.BasePage import BasePage
-from appium.webdriver.common.mobileby import MobileBy
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions
-from utils.elements import AppiumElement
+from TestAppium.po.appium_elements import Element
 
 
 class LaunchPage(BasePage):
-    contact = AppiumElement('//*[@text="通讯录"]')
+    contact = Element("//*[contains(@text,'通讯录')]")
 
     def goto_contact(self):
         from TestAppium.po.pages.ContactPage import ContactPage
+        self.logging("进入联系人页面")
         self.contact.click()
         return ContactPage(self.driver)
