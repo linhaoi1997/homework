@@ -10,7 +10,7 @@ from run import run
 fake = Faker("zh-CN")
 
 
-@pytest.fixture(scope="class")
+@pytest.fixture(scope="session")
 def app():
     app = App(get_appium_driver())
     yield app
@@ -38,7 +38,8 @@ class TestAddContact:
 class TestDeleteContact:
     @allure.title("删除联系人")
     def test2(self, page):
-        name = "施杰"
+        # 从数据库中获取还是从哪里搞
+        name = "孙瑜"
         with allure.step("进入删除联系人页面"):
             page = page.goto_contact().go_to_user_detail(name)
         with allure.step("选择联系人，并进入删除页面删除联系人"):
@@ -46,6 +47,7 @@ class TestDeleteContact:
         with allure.step("验证联系人删除成功"):
             with pytest.raises(NoSuchElementException):
                 page.find_user(name)
+        page.screen()
 
 
 if __name__ == '__main__':
